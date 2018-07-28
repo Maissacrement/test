@@ -1,0 +1,19 @@
+page-home {
+  ion-content {
+
+  }
+  .filtre {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    filter: blur(4px);
+    z-index: -1;
+    background: url("../../assets/imgs/lr.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top:0;
+    left: 0;
+    position:fixed;
+  }
+}
